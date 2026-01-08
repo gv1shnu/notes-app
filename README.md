@@ -5,6 +5,7 @@ A full-stack web application for creating, reading, updating, and deleting notes
 ## Features
 
 - Create, view, update, and delete notes
+- Search notes by title and content
 - Responsive design (mobile, tablet, desktop)
 - Real-time timestamps
 - Modern user interface
@@ -88,23 +89,10 @@ lib/
 }
 ```
 
-## Troubleshooting
 
-**MongoDB Connection Error**: Ensure MongoDB is running or connection string is valid.
-
-**Port 3000 in use**: `npm run dev -- -p 3001`
-
-## Support
-
-For technical documentation, refer to official resources:
-- [Next.js Documentation](https://nextjs.org/docs)
-- [MongoDB Documentation](https://www.mongodb.com/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs)
-  updatedAt: Date
-}
-```
 
 ## Features in Detail
+
 
 ### Create Note
 - Navigate to the "New Note" button on the home page
@@ -126,44 +114,15 @@ For technical documentation, refer to official resources:
 - Confirm the deletion when prompted
 - The note will be permanently removed
 
-## Styling
-
-The app uses Tailwind CSS with a modern gradient design:
-- Blue gradient background (`from-blue-50 to-indigo-100`)
-- Card-based layout with shadows and hover effects
-- Responsive grid (1 column on mobile, 2 on tablet, 3 on desktop)
-- Consistent color scheme with indigo accents
-
-## Troubleshooting
-
-### MongoDB Connection Error
-- Ensure MongoDB is running locally or you have valid Atlas credentials
-- Check that `MONGODB_URI` in `.env.local` is correct
-
-### Port 3000 Already in Use
-```bash
-# Use a different port
-npm run dev -- -p 3001
-```
-
-### Module Not Found Errors
-```bash
-# Clean install dependencies
-rm -rf node_modules package-lock.json
-npm install
-```
-
-## Future Enhancements
+## Future Additions
 
 - [ ] User authentication
 - [ ] Note categories/tags
-- [ ] Search functionality
+- [x] Search functionality
 - [ ] Dark mode
 - [ ] Rich text editor
 - [ ] Export notes
 - [ ] Collaborative editing
 
-## License
 
-This project is open source and available under the MIT License.
 
