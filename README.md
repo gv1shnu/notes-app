@@ -125,4 +125,11 @@ lib/
 - [ ] Collaborative editing
 
 
+## Screenshots
+
+### Mobile View
+![Mobile view of notes app](public/screenshots/mobile.png)
+
+### Desktop View
+![Desktop view of notes app](public/screenshots/desktop.png)
 
